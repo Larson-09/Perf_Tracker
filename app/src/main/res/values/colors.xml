@@ -2,15 +2,23 @@
 <resources>
 
     <!-- Dark background colors-->
-    <color name="dark_theme_gray">#3c3f41</color>
-    <color name="dark_theme_black">#2b2b2b</color>
-    <color name="dark_theme_icon_color">#9f9f9f</color>
-    <color name="dark_theme_tool_bar_color">#2e2e2e</color>
-    <color name="dark_theme_main_blue">#00e8c5</color>
+    <color name="dark_theme_main_color">#24C1AF</color>
+
+    <color name="dark_theme_gray_bg">#3c3f41</color>
+    <color name="dark_theme_black_bg">#2b2b2b</color>
+
+    <color name="dark_theme_top_bar_title">#000000</color>
+    <color name="dark_theme_navigation_bar">#2e2e2e</color>
+
+    <color name="dark_theme_icon">#9f9f9f</color>
 
     <!-- Light background colors-->
     <color name="clear_theme_white">#ffffff</color>
     <color name="clear_theme_gray">##f2f2f2</color>
+
+    <!-- Font colors -->
+    <color name="core_subtitle">#000000</color>
+    <color name="core_text_gray">#8C8C8C</color>
 
     <!-- Default colors-->
     <color name="purple_200">#FFBB86FC</color>

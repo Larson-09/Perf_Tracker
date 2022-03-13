@@ -13,4 +13,29 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <!-- Top Bar title style -->
+    <style name="top_bar_title_text_style">
+        <item name="android:fontFamily">@font/kanit</item>
+        <item name="android:textSize">@dimen/top_bar_title_size</item>
+        <item name="android:textColor">@color/dark_theme_top_bar_title</item>
+    </style>
+
+    <!-- Core subtitles -->
+    <style name="core_subtitle" parent="top_bar_title_text_style">
+        <item name="android:textSize">@dimen/core_subtitle_size</item>
+        <item name="android:textColor">@color/core_subtitle</item>
+    </style>
+
+    <!-- Core text -->
+    <style name="core_text" parent="core_subtitle">
+        <item name="android:textSize">@dimen/core_subtitle_size</item>
+    </style>
+
+    <!-- Core text gray -->
+    <style name="core_text_gray" parent="core_text">
+        <item name="android:textColor">@color/core_text_gray</item>
+    </style>
+
+
 </resources>

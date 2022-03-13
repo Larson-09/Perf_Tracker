@@ -6,13 +6,60 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+
+    <!-- Top bar container layout -->
+    <FrameLayout
+        android:id="@+id/top_bar_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_bar_height"
+        android:background="@color/dark_theme_main_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Top bar title -->
     <TextView
+        android:id="@+id/top_bar_title"
+
+        android:text="@string/programs_page_title"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+
+        android:layout_marginTop="@dimen/top_bar_margin_top"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        style="@style/top_bar_title_text_style"/>
+
+    <!-- Core container layout -->
+    <FrameLayout
+        android:id="@+id/core_container"
+        android:layout_width="match_parent"
+        android:layout_height=""
+        android:background="@color/dark_theme_gray_bg"
+
+        app:layout_constraintBottom_toTopOf="@+id/navigation_bar_container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/top_bar_container" />
+
+    <!-- Tool bar container layout -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation_bar_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/navigation_bar_height"
+        android:background="@color/dark_theme_navigation_bar"
+
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:menu="@menu/bottom_navigation_menu"/>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

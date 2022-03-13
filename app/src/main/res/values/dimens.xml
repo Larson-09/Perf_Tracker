@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Top bar -->
+    <dimen name="top_bar_margin_top">20dp</dimen>
+    <dimen name="top_bar_title_size">25sp</dimen>
+    <dimen name="top_bar_height">70sp</dimen>
+
+    <!-- Core block -->
+    <dimen name="core_subtitle_size">20sp</dimen>
+
+    <!-- Tool bar -->
+    <dimen name="navigation_bar_height">75sp</dimen>
+
+</resources>
