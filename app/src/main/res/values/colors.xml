@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dark background colors-->
+    <color name="dark_theme_gray">#3c3f41</color>
+    <color name="dark_theme_black">#2b2b2b</color>
+    <color name="dark_theme_icon_color">#9f9f9f</color>
+    <color name="dark_theme_tool_bar_color">#2e2e2e</color>
+    <color name="dark_theme_main_blue">#00e8c5</color>
+
+    <!-- Light background colors-->
+    <color name="clear_theme_white">#ffffff</color>
+    <color name="clear_theme_gray">##f2f2f2</color>
+
+    <!-- Default colors-->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+</resources>

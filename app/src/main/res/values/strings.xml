@@ -1,0 +1,71 @@
+<resources>
+
+    <!-- Global -->
+    <string name="app_name">Perf Tracker</string>
+    <string name="save_button_text">Enregistrer</string>
+
+
+    <!-- Programs page -->
+    <string name="programs_page_title">Mes Programmes</string>
+
+
+    <!-- Add program page -->
+    <string name="add_programs_page_title">Nouveau Programme</string>
+
+
+    <!-- Workout page -->
+    <string name="workout_page_title">Mes Séances</string>
+    <string name="workout_page_next_workout_title">Prochaine séance</string>
+    <string name="workout_page_all_workout_title">Toutes les séance</string>
+
+
+    <!-- Add workout page -->
+    <string name="add_workout_page_title">Nouvelle Séance</string>
+
+    <string name="add_workout_page_info_title">Informations Générales</string>
+    <string-array name="add_workout_page_day_input">
+        <item>Lundi</item>
+        <item>Mardi</item>
+        <item>Mercredi</item>
+        <item>Jeudi</item>
+        <item>Vendredi</item>
+        <item>Samedi</item>
+        <item>Dimanche</item>
+    </string-array>
+
+    <string name="add_workout_page_exercises_title">Exercices</string>
+    <string-array name="add_workout_page_exercises_input">
+        <!-- Add exercises from database -->
+    </string-array>
+
+
+    <!-- Workout instance page -->
+    <string name="workout_instance_page_title">Historique</string>
+
+
+    <!-- Exercises page -->
+    <string name="exercises_catalog_page_title">Mes Exercices</string>
+
+
+    <!-- Add exercises page -->
+    <string name="add_new_exercise_page_title">Nouvel Exercice</string>
+    <string-array name="add_new_exercise_page_muscle_group_input">
+        <item>Pectoraux</item>
+        <item>Dorsaux</item>
+        <item>Deltoïdes</item>
+        <item>Abdominaux</item>
+        <item>Biceps</item>
+        <item>Triceps</item>
+        <item>Jambes</item>
+        <item>Autres</item>
+    </string-array>
+    <string-array name="add_new_exercise_page_type_input">
+        <item>Charges et Répédition</item>
+        <item>Maintien</item>
+    </string-array>
+    <string-array name="add_new_exercise_page_weight_type_input">
+        <item>Soulever de charges</item>
+        <item>Poids du corps </item>
+    </string-array>
+
+</resources>
