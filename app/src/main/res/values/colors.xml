@@ -14,7 +14,7 @@
 
     <!-- Light background colors-->
     <color name="clear_theme_white">#ffffff</color>
-    <color name="clear_theme_gray">##f2f2f2</color>
+    <color name="clear_theme_gray">#f2f2f2</color>
 
     <!-- Font colors -->
     <color name="core_subtitle">#000000</color>
